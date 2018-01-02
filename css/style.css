@@ -1,0 +1,80 @@
+
+body {
+   background-color: #1b1b1b;
+}
+
+h1 {
+    font-size: 112px;
+    font-weight: 700; 
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600; 
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.font-titulo {
+    margin-left: 114px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.font-paragraph {
+    margin-left: 114px;
+    width: 1279px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-pink {
+    color: #f7377a;
+}
+
+.color-cinza{
+    color: #7a7a7a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    margin-top: 188px;
+    margin-bottom: 126px;
+    width: 1614px;
+    height: auto;
+    border: 2px solid #cdcdcd; 
+}
+
+.formacao {
+    width: 1614px;
+    height: 749px;
+    background-color: #1d1d1d;
+
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #610725;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #610725;
+}
+::-webkit-scrollbar-thumb {
+    background: #f7377a;
+}
