@@ -1,16 +1,79 @@
-
 body {
-   background-color: #1b1b1b;
+    background-color: #1B1B1B;
+ }
+
+ .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* SCROLL */
+::-webkit-scrollbar-track {
+    background-color: #610725;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #610725;
+}
+::-webkit-scrollbar-thumb {
+    background: #f7377a;
+}
+
+/* COLOR */
+.color-white {
+    color: #FFFFFF;
+}
+
+.color-pink {
+    color: #F7377A;
+}
+
+.color-pink-orange {
+    color: #FF4E5F;
+}
+
+.color-grey {
+    color: #7A7A7A;
+}
+
+.color-dark-grey {
+    color: #1D1D1D;
+}
+        
+.color-black { 
+    color: #1B1B1B;
+}    
+
+.color-gradient-pink {
+    background: linear-gradient(to right, #FF4E5F, #F7377A);
+}
+
+/* FONT */
+
 h1 {
-    font-size: 112px;
-    font-weight: 700; 
+    font-size: 112px;    
+    font-weight: 600; 
 }
 
 h2 {
     font-size: 32px;
-    font-weight: 600; 
+    font-weight: 500; 
+}
+
+h3 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 h6 {
@@ -23,43 +86,53 @@ p {
     font-weight: 400;
 }
 
-.font-titulo {
-    margin-left: 114px;
-    font-family: 'Roboto', sans-serif; 
-}
-
-.font-paragraph {
-    margin-left: 114px;
-    width: 1279px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.color-white {
-    color: #ffffff;
-}
-
-.color-pink {
-    color: #f7377a;
-}
-
-.color-cinza{
-    color: #7a7a7a;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* INTRO */
+.container-intro {
+    margin-top: 195px;
+    margin-bottom: 136px;
+    width: 1614px;
+    height: auto;
+    position: relative;
 }
 
 .intro {
-    margin-top: 188px;
-    margin-bottom: 126px;
-    width: 1614px;
-    height: auto;
-    border: 2px solid #cdcdcd; 
+    width: 1320px;
+    margin: 0 auto;
 }
 
+.font-titulo-intro {
+    font-family: 'Roboto', sans-serif;   
+    margin: 0px ;
+}
+
+.font-paragraph-intro {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    width: 1279px;
+    position: relative;
+    text-align: left;
+}
+
+#text-portfolio {
+    margin: 0px;
+    position: relative;
+    text-align: right;
+}
+
+#text-uxui {
+    margin-top: 38px;
+    margin-bottom: 83px;
+    position: relative;
+    text-align: left;
+}
+
+#text-paragraph-1 {
+    margin-top: 8px;
+    margin-bottom: 34px;
+}
+
+
+/* FORMAÇÂO */
 .formacao {
     width: 1614px;
     height: 749px;
@@ -67,14 +140,25 @@ p {
 
 }
 
+/* EXPERIÊNCIA */
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-experiencia-rosa {
+    width: 500px;
+    height: 506px;
+    background: linear-gradient(to right, #ff4e5f, #f7377a);
+}
 
-::-webkit-scrollbar-track {
-    background-color: #610725;
+.card-experiencia-preto {
+    width: 500px;
+    height: 506px;
+    background-color: #1d1d1d;
 }
-::-webkit-scrollbar {
-    width: 8px;
-    background: #610725;
-}
-::-webkit-scrollbar-thumb {
-    background: #f7377a;
+
+.font-titulo-card {
+    margin-left: 71px;
+    font-family: 'Roboto', sans-serif; 
 }
