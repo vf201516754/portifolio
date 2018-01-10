@@ -158,6 +158,13 @@ p {
 }
 
 /* EXPERIÊNCIA */
+.cabecalho-experiencia{
+    width: 1614px;
+    margin-top: 277px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px; 
+}
 .container-experiencia {
     width: 1614px;
     display: flex;
@@ -190,6 +197,13 @@ ul li:before {
     color: #FFFFFF /* cor da bolinha */
 }
 
+.font-titulo-experiencia {
+    margin-left: 0px;
+    margin-bottom: 11px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .font-titulo-exper {
     margin-top: 33px;
     margin-bottom: 23px; 
@@ -201,4 +215,76 @@ ul li:before {
     text-align: left;
 }
 
-/* INTERESSES */
+#mais-informacoes {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* IDIOMA / INTERESSES */
+.container-idiomas {
+    width: 777px;
+    height: 630px;
+    margin-bottom: 78px;
+}
+
+.container-interesses {
+    width: 777px;
+    height: 630px;
+    margin-bottom: 78px;
+}
+
+.container-idiomas-content {
+    width: 278px;
+    height: auto;
+    margin-top: 174px; 
+    margin-left: 127px;
+}
+
+.container-interesses-content {
+    width: 278px;
+    height: auto;
+    margin-top: 174px; 
+    margin-left: 127px;
+}
+
+.container-interesses-content-items {
+    Width: 541px;
+    height: 251px;;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-master-idiomas {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 43px 0px;
+}
+
+.title-master-interesses {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 43px 0px;    
+}
+
+.items-interesses {
+    width: 209px;
+    height: 60px;
+    margin: auto;
+
+}
+.items-interesses img {
+    width: 59px;
+    height: 59px;
+}
+.items-interesses label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+
+
+/* CONTATOS */
