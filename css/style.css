@@ -1,12 +1,21 @@
+* {
+    /* style */
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
+    /* position */
+    padding-top: 195px;
+
+    /* style */
     background-color: #1B1B1B;
+    border-top: 2px solid #F7377A;
  }
 
- .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 2px solid #F7377A;
+main {
+    /* position */
+    width: 84%;
+    margin: 0 auto;
 }
 
 /* SCROLL */
@@ -21,51 +30,69 @@ body {
     background: #f7377a;
 }
 
-/* COLOR */
-.color-white {
+/* INTRODUCAO */
+.container-introducao {
+    /* position */
+    width: 82%;
+    margin: 0 auto;
+    
+}
+
+.item-label-introducao {
+    /* position */
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+
+    /* style*/
+    font-size: 18px;
+    font-weight: 500;
     color: #FFFFFF;
 }
 
-.color-pink {
-    color: #F7377A;
-}
+.container-content-introducao {
+    /* position */
+    width: 97%;
+    margin-top: 34px;
+    margin-bottom: 137px;
 
-.color-orange {
-    color: #FF4E5F;
-}
-
-.color-grey {
+    /* style */
+    font-size: 21px;
+    font-weight: 400;
     color: #7A7A7A;
+    text-align: left;
 }
 
-.color-dark-grey {
-    color: #1D1D1D;
+h1 {
+    font-size: 112px;
+    font-weight: 700;
+    color: #FFFFFF; 
 }
-        
-.color-black { 
-    color: #1B1B1B;
-}    
 
-.bgcolor-dark-grey { 
+h2 {
+    margin-bottom: 77px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #F7377A; 
+}
+
+/* FORMACAO */
+.container-formacao {
+    /* style */
     background-color: #1D1D1D;
+    border: 1px solid #7A7A7A;
 }
+
+.container-content-formacao {
+    border: 1px solid #7A7A7A;
+}
+
 
 .bgcolor-gradient-pink {
     background: linear-gradient(to right, #FF4E5F, #F7377A);
 }
 
 /* FONT */
-
-h1 {
-    font-size: 112px;    
-    font-weight: 600; 
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: 500; 
-}
-
 h3 {
     font-size: 44px;
     font-weight: 500;
@@ -137,25 +164,7 @@ p {
 }
 
 
-/* FORMAÇÂO */
-.formacao {
-    width: 1614px;
-    height: 749px;
-    margin-right: 0px;
-    margin-bottom: 77px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-}
 
-.text-formacao {
-    margin-top: 216px;
-    text-align: center;
-    color: #202020;
-    font-size: 225px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-}
 
 /* EXPERIÊNCIA */
 .cabecalho-experiencia{
@@ -244,10 +253,9 @@ ul li:before {
 }
 
 .container-interesses-content {
-    width: 278px;
-    height: auto;
-    margin-top: 174px; 
-    margin-left: 127px;
+    width: 541px;
+    height: 331px;
+   margin: auto;
 }
 
 .container-interesses-content-items {
