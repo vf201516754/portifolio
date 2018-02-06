@@ -61,7 +61,7 @@ main {
 
     /* style */
     font-size: 1.31em;
-    line-height: 24px;
+    line-height: 31.5px;
     font-weight: 400;
     color: #7A7A7A;
     text-align: left;
@@ -165,12 +165,6 @@ main {
 }
 
 
-.bgcolor-gradient-pink {
-    background: linear-gradient(to right, #FF4E5F, #F7377A);
-}
-
-
-
 /* EXPERIÊNCIA */
 .container-experiencia {
     width: 100%;
@@ -200,6 +194,8 @@ main {
 .content-experiencia {
     /* position */
     margin-top: 50px;
+    margin-bottom: 137px;
+    overflow: hidden;
     
     /* style */
     width: 100%;
@@ -216,29 +212,34 @@ main {
     background-color: #1D1D1D;
 }
 
-        .item-1 {
-            margin: 0px 50px 50px 0px; 
-        }
+.item-1 { 
+    margin: 0px 3.65% 50px 0px;
+    background:linear-gradient(to right, #FF4E5F , #F7377A);
+}
 
-        .item-2 {
-            margin: 0px 50px 50px 0px; 
-        }
+.item-2 { 
+    margin: 0px 3.65% 50px 0px;        
+}        
 
-        .item-3 {
-            margin: 0px 0px 50px 0px; 
-        }
+.item-3 {
+    margin: 0px 0px 50px 0px; 
+}
 
-        .item-4 {
-            margin: 0px 50px 50px 0px; 
-        } 
+.item-4 { 
+    margin: 0px 3.65% 0px 0px; 
+} 
 
-        .item-5 {
-            margin: 0px 50px 50px 0px; 
-        }
+.item-5 { 
+    margin: 0px 3.65% 0px 0px; 
+}
 
-        .item-6 {
-            margin: 0px 0px 50px 0px; 
-        }     
+.item-6 { 
+    margin: 0px 0px 0px 0px; 
+} 
+
+#new-style-experiencia-1, #new-style-experiencia-2 {
+    color: #1D1D1D;
+}
 
 .item-content-experiencia header {
     /* position */
@@ -279,82 +280,76 @@ main {
 .item-content-experiencia ul {
     /* position */
     margin: 0 auto;
-    padding-left: 50px;
+    padding-left: 20px;
 
     /* style */
-    width: 72%;
+    width: 69%;
     font-size: 1.31em;
     font-weight: 400;
     color: #7A7A7A;
+    line-height: 31.5px;
 }
 
 .item-content-experiencia li {
-    margin-bottom: 0.68em;
+    margin-bottom: 0.5em;
     list-style-type: disc;
 }
 
 
-/* IDIOMA / INTERESSES */
+/* IDIOMA */ 
 .container-idiomas {
-    width: 777px;
-    height: 630px;
-    margin-bottom: 78px;
+    /* position */
+    margin-right: 3.65%;
+    float: left;
+    padding-top: 150px; 
+    padding-left: 120px;
+
+    /* style */
+    width: 48.175%;
+    height: 630px; 
+    background-color: #1D1D1D;
 }
 
-.container-interesses {
-    width: 777px;
-    height: 630px;
-    margin-bottom: 78px;
+.container-idiomas header h3 {
+    /* position */
+    margin-bottom: 56px;
+
+    /* style */
+    font-size: 2.75em;
+    font-weight: 500;
+    color: #FFFFFF;
 }
 
-.container-idiomas-content {
-    width: 278px;
-    height: auto;
-    margin-top: 174px; 
-    margin-left: 3.125em;
+.item-idiomas {
+    /* position */
+    margin-bottom: 56px;
 }
 
-.container-interesses-content {
-    width: 541px;
-    height: 331px;
-     margin: auto;
-}
-
-.container-interesses-content-items {
-    Width: 541px;
-    height: 251px;;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.title-master-idiomas {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px 0px 43px 0px;
-}
-
-.title-master-interesses {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px 0px 43px 0px;    
-}
-
-.items-interesses {
-    width: 209px;
-    height: 60px;
-    margin: auto;
-
-}
-.items-interesses img {
-    width: 59px;
-    height: 59px;
-}
-.items-interesses label {
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
+.item-idiomas h5 {
+    /* position */
+    margin-bottom: 27px;
+    
+    /* style */
+    font-size: 1.3125em;
     font-weight: 400;
+    color: #FFFFFF; 
 }
 
+/* INTERESSES*/
+.container-interesses {
+    /* position */
+    float: left;
 
+    /* style */
+    width: 48.175%;
+    height: 630px; 
+    background-color: #1D1D1D;
+}
 
-
+.container-interesses header h3 {
+    /* style */
+    font-size: 2.75em;
+    font-weight: 500;
+    color: #FFFFFF;
+}
 /* CONTATOS */
