@@ -28,6 +28,7 @@ main {
     /* position */
     width: 84%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* INTRODUCAO */
@@ -303,10 +304,10 @@ main {
     float: left;
     padding-top: 150px; 
     padding-left: 120px;
+    padding-bottom: 159px;
 
     /* style */
-    width: 48.175%;
-    height: 630px; 
+    width: 40.46%;
     background-color: #1D1D1D;
 }
 
@@ -339,17 +340,62 @@ main {
 .container-interesses {
     /* position */
     float: left;
+    padding-top: 150px; 
+    padding-left: 120px;
+    padding-bottom: 150px;
 
     /* style */
-    width: 48.175%;
-    height: 630px; 
+    width: 40.46%;
     background-color: #1D1D1D;
 }
 
+.content-item-interesses {
+    /* position */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* style */
+    width: 674px;
+    height: 251px;
+}
+
 .container-interesses header h3 {
+    /* position */
+    margin-bottom: 56px;
+
     /* style */
     font-size: 2.75em;
     font-weight: 500;
     color: #FFFFFF;
 }
+
+.item-interesses {
+    /* position */
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    margin-right: 123px;
+
+    /* style */
+    width: 209px;
+}
+
+.item-interesses h5 {  
+    /* style */
+    font-size: 1.3125em;
+    font-weight: 400;
+    color: #FFFFFF; 
+}
+
+.item-interesses img {
+    /* position */
+    margin-right: 26px; 
+
+    /* style */
+    width: 58.8px;
+    height: 58.8px;
+}
+
+
 /* CONTATOS */
