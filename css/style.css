@@ -92,19 +92,26 @@ main {
     justify-content: center;
     margin-bottom: 137px;
 
+
     /* style */
+    height: 749px;
     background-color: #1D1D1D;
-    border: 1px solid #7A7A7A;
 }
 
 .container-content-formacao{
     /* position */
+    position: relative;
+
+    /* style */
     width: 1374px;
 }
 
 .item-label-formacao {
     /* position */
-    margin-top: 216px;
+    position: absolute;
+    top: 216px;
+    left: 77px;
+    
         
     /* style */
     font-size: 225px;
@@ -116,9 +123,11 @@ main {
 
 .container-step-formacao {
     /* position */
+    position: absolute;
+    top: 304px;
+    left: 132px;
     display: flex;
     justify-content: space-between;
-    margin: 88px auto 30px auto;
 
     /* style */
     width: 81%;
@@ -162,6 +171,8 @@ main {
 }
     
 .container-itens-formacao {
+    position: absolute;
+    top: 422px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -169,10 +180,30 @@ main {
 
 .item-formacao {
     /* position */
-    width: 329px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.formacao-2014 {
+    /* position */
+    margin-right: 220px;
+
+    /* style */
+    width: 292px;
+}
+
+.formacao-2015 {
+    /* position */
+    margin-right: 220px;
+
+    /* style */
+    width: 292px;
+}
+
+.formacao-2019 {
+    /* style */ 
+    width:329px;
 }
 
 .item-header-formacao {
