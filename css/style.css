@@ -170,43 +170,50 @@ main {
     border-bottom: 1px solid #3b3b3b;
 }
     
-.container-itens-formacao {
+.container-item-formacao {
+    /* position */
     position: absolute;
-    top: 422px;
+    top: 397px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    /* style */
+    width: 100%;
 }
 
 .item-formacao {
     /* position */
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-formacao label {
+    /* position */
+    display: inline-block;
 }
 
 .formacao-2014 {
-    /* position */
-    margin-right: 246px;
-
     /* style */
-    width: 292px;
+    width: 320px;
 }
 
 .formacao-2015 {
-    /* position */
-    margin-right: 219px;
-
     /* style */
     width: 292px;
 }
 
 .formacao-2019 {
     /* style */ 
-    width:329px;
+    width:350px;
 }
 
 .item-header-formacao {
+    /* position */
+    margin-bottom: 25px;
+
     /* style */
     font-size: 112px;
     font-weight: 700;
@@ -216,17 +223,25 @@ main {
 
 .item-content-formacao {
     /* position */
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-    .nome-instituicao {
+.nome-instituicao {
+    /* position */
+    margin-bottom: 5px;
+
     /* style */
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 500;
     color: #F7377A; 
 }
 
 .tipo-formacao, .periodo-formacao {
+    /* style */
+    margin-bottom: 4px;
+
     /* style */
     font-size: 18px;
     font-weight: 300;
@@ -239,11 +254,6 @@ main {
     font-weight: 300;
     color: #707070; 
  }
-
-
-.container-content-formacao {
-               
-}
 
 /* HABILIDADES */
 .container-habilidades {
@@ -324,7 +334,7 @@ main {
 
 .item-habilidades h5 {
     /* position */
-    margin-bottom: 27px;
+    margin-bottom: 24px;
     
     /* style */
     font-size: 1.3125em;
@@ -494,7 +504,7 @@ main {
 
 .item-idiomas h5 {
     /* position */
-    margin-bottom: 27px;
+    margin-bottom: 24px;
     
     /* style */
     font-size: 1.3125em;
@@ -616,6 +626,7 @@ main {
     font-size: 1.3125em;
     font-weight: 400;
     color: #FFFFFF; 
+    line-height: 31.5px;
 }
 
 .item-contatos img {
